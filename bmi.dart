@@ -25,6 +25,8 @@ List<double> weights = [];
 List<double> bmis = [];
 
 main() {
+  // show welcome screen
+  print('BMI Calculator');
   bool repeate = true;
   while (repeate) {
     bool continueAgain = getUserDetails();
